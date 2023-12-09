@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./styles.css" rel="stylesheet"> </link>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <!-- GOOGLE FONT -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+  
+  <title>Document</title>
+  <script src="index.js"></script>
+</head>
+<body>
+<div class="container">
+  <div class="box"> 
+    <div class="content">
+      <div class="head"> 
+        <img class="star" src="/assets//images/icon-star.svg" alt="">
+        <h1 class="title">FAQs</h1>
+      </div>
+   
+     <div class="accordion-box"> 
+     <div class="accordion-button" onclick="toggleAccordion('section1')">
+      What is Frontend Mentor, and how will it help me?
+      <img id="arrow1" src="/assets//images/plus.svg" alt="">
+    </div>
+    <div id="section1" class="accordion-question"> 
+      <p class="answer">Frontend Mentor offers realistic coding challenges to help developers improve their frontend coding skills with projects in HTML, CSS, and JavaScript. It’s suitable for all levels and ideal for portfolio building.</p>
+    </div>
+  </div>
+
+    <div class="accordion-box">
+    <div class="accordion-button" onclick="toggleAccordion('section2')">
+      Is Frontend Mentor free?
+      <img id="arrow2" src="/assets//images/plus.svg" alt="">
+    </div>
+    <div id="section2" class="accordion-question"> 
+      <p class="answer"></p>
+    </div>
+    </div>  
+
+     <div class="accordion-box">
+     <div class="accordion-button" onclick="toggleAccordion('section3')">
+      Can I use Frontend Mentor projects in my portfolio?
+      <img id="arrow3" src="/assets//images/plus.svg" alt="">
+    </div>
+    <div id="section3" class="accordion-question"> 
+      <p class="answer"></p>
+    </div>
+    </div>
+
+      <div >
+     <div class="accordion-button" onclick="toggleAccordion('section4')">
+      How can I get help if I'm stuck on a challenge?
+      <img id="arrow4" src="/assets//images/plus.svg" alt="">
+
+    </div>
+    <div id="section4" class="accordion-question"> 
+      <p class="answer"></p>
+    </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
